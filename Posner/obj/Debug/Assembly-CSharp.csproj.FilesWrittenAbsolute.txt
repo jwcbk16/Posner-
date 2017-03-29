@@ -1,0 +1,46 @@
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEditor.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Mono.Cecil.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/obj/Debug/Assembly-CSharp.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/jwcbk16/Desktop/Unity /This might be it/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/jwcbk16/Desktop/Unity /Posner/obj/Debug/Assembly-CSharp.dll
+/Users/jwcbk16/Desktop/Unity /Posner/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEditor.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Mono.Cecil.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/jwcbk16/Desktop/Unity /Posner/Temp/bin/Debug/UnityEngine.Advertisements.dll
