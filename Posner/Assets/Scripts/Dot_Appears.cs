@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-
 public class Dot_Appears : MonoBehaviour {
     public GameObject A;
     public GameObject B;
@@ -29,36 +27,49 @@ public class Dot_Appears : MonoBehaviour {
     public string letter;
     int[,] data = new int[2, 4];
     public bool trig = false;
-    public GameObject masker; 
+    public GameObject masker;
 
+     int arrow_pos_left = -50;
+     int arrow_pos_right = 50;
+     int arrow_y = 43;
+     int arrow_pos_forward = 100;
+     int arrow_pos_back = 170;
+     int arrow_x;
+     int arrow_z;
 
-
-
-
-
-
-
-
+     int targ_pos_left = -100;
+     int targ_pos_right = 100;
+     int targ_pos_middle = 0;
+     int targ_pos_forward = 0;
+     int targ_pos_back = 150;
+     int targ_y = 43;
+     int targ_x;
+     int targ_z;
+     int left_or_right;
 
     public void random_assigner(ref int quadr_arrow)
     {
+        int left_or_right = Random.Range(1, 3);
+        if (left_or_right == 1)
+        {
+            arrow_x = arrow_pos_left;
+        } else {
+            arrow_x = arrow_pos_right;
+        }
         int loc = Random.Range(1, 5);
         if (loc == 1) {
-            arrow.transform.position = new Vector3(13, 40, 170);
             quadr_arrow = 2;
         } else if (loc == 2) {
-            arrow.transform.position = new Vector3(13, 40, 100);
             quadr_arrow = 30;
         } else if (loc == 3) {
-            arrow.transform.position = new Vector3(13, 40, 170);
-            arrow.transform.Rotate(Vector3.forward, 180f, Space.World);
             quadr_arrow = 1;
-        } else if (loc == 4) {
-            arrow.transform.position = new Vector3(13, 40, 100);
-            arrow.transform.Rotate(Vector3.forward, 180f, Space.World);
+        } else {
             quadr_arrow = 40;
         }
-
+        arrow.transform.position = new Vector3(arrow_x, arrow_y, arrow_z);
+        if  (loc == 3 || loc == 4) { 
+                            arrow.transform.Rotate(Vector3.forward, 180f, Space.World);
+        }
     }
 
     public void rand_letter()
@@ -84,40 +95,34 @@ public class Dot_Appears : MonoBehaviour {
     }
     public void rand_assign(ref int quadr_target, ref GameObject GO)
     {
-
+        if (left_or_right == 1)
+        {
+            targ_x = targ_pos_left;
+        }
+        else
+        {
+            targ_x = targ_pos_right;
+        }
         int loc = Random.Range(1, 5);
         if (loc == 1) {
-            GO.transform.position = new Vector3(100, 30, 135);
+            targ_x = targ_pos_left; targ_z = targ_pos_forward;
             quadr_target = 1;
         } else if (loc == 2) {
-            GO.transform.position = new Vector3(-75, 30, 135);
+            targ_x = targ_pos_left; targ_z = targ_pos_back;
             quadr_target = 2;
         } else if (loc == 3) {
-            GO.transform.position = new Vector3(100, 30, 85);
+            targ_x = targ_pos_middle; targ_z = targ_pos_forward;
             quadr_target = 40;
-        } else if (loc == 4) {
-            GO.transform.position = new Vector3(-75, 30, 85);
+        } else {
+            targ_x = targ_pos_middle; targ_z = targ_pos_back;
             quadr_target = 30;
         }
-    }
+        GO.transform.position = new Vector3(targ_x,targ_y,targ_z);
+            }
+
     public void mask()
     {
-        if (quadr_target == 1)
-        {
-            masker.transform.position = new Vector3(100, 30, 135);
-        }
-        else if (quadr_target == 2)
-        {
-            masker.transform.position = new Vector3(-75, 30, 135);
-        }
-        else if (quadr_target == 40)
-        {
-            masker.transform.position = new Vector3(100, 30, 85);
-        }
-        else if (quadr_target == 30)
-        {
-            masker.transform.position = new Vector3(-75, 30, 85);
-        }
+        masker.transform.position = new Vector3(targ_x, targ_y, targ_z);
     }
 
 	public void cue_determine(ref int valid_cues, ref int only_valid_depth,ref int only_valid_alignment, ref int not_valid) 
@@ -137,21 +142,14 @@ public class Dot_Appears : MonoBehaviour {
 		} else { 
 			status = "Completely Invalid Cue";
 			not_valid += 1;
-		}
-
-	 
+		}	 
 	}
-
-
+    
 	public void Letter()
 	{
 		rand_letter (); 
 		cue_determine (ref valid_cues, ref only_valid_depth, ref only_valid_alignment, ref not_valid); 
 	} 
-
-
-	
-
 
 	public IEnumerator Main_Coroutine () {
 		for (int i = 0; i < 5; i++) { 
@@ -180,10 +178,7 @@ public class Dot_Appears : MonoBehaviour {
 	}
 
 	public void Start(){
-        
-
         StartCoroutine (Main_Coroutine()); 
-
 	}
 
     public void Update() {
@@ -201,13 +196,8 @@ public class Dot_Appears : MonoBehaviour {
                 response = "D";
                 print(response);
             }
-           
-
-
 
         }
-				
-   
 }
 	public void data_collect() 
 	{
@@ -225,15 +215,6 @@ public class Dot_Appears : MonoBehaviour {
 			correct_status = "Wrong";
 		
 	}
-
 		print (correct_status); 
 }
-
-  
-   
-  
-
     }
-
-
-
